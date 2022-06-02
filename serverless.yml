@@ -2,7 +2,7 @@ service: aws-test-project-serverless-cdci
 app: aws-test-project-serverless-cdci
 org: jomunoz075
 frameworkVersion: '3'
-
+# test of changes
 provider:
   name: aws
   runtime: nodejs14.x
