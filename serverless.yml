@@ -1,0 +1,12 @@
+service: aws-test-project-serverless-cdci
+app: aws-test-project-serverless-cdci
+org: jomunoz075
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
